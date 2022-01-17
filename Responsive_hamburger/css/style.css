@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;/*It merge both images*/
+}
+
+.navbar{
+    display : flex;
+    position: sticky;
+    top : 0;
+    cursor : pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlist{
+   
+    width: 70%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 24px;
+}
+
+.navlist li{
+    list-style-type: none;
+    padding: 15px 30px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.navlist li a:hover{
+    color: gray;
+
+}
+
+.rightnav{
+    
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+}
+
+#search{
+    padding : 5px;
+    font-size: 13px;
+    border : 2px solid gray;
+    border-radius: 5px;
+    margin-right: 6px;
+}
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 50%;
+    margin: auto;
+    text-align:initial;
+    height: 70%;
+}
+
+.first-section{
+    height: 100vh;
+
+}
+
+
+.fhalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shalf{
+    width: 30%;
+}
+
+.shalf img{
+    width: 70%;
+    padding: 4px 0px;
+    border : 2px solid black;
+    display: block;
+    margin: auto;
+}
+
+.sbig{
+    font-size: 40px;
+}
+
+.big{
+    font-size: 15px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 03px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: none;/*transparent*/
+    color:blanchedalmond;
+    cursor : pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:hover{
+    color:white;
+    background-color: black;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.contact{
+    background-color: rgb(235, 226, 226);
+}
+
+.form{
+    max-width: 62%;
+    margin: 0px auto;
+}
+
+.form-input{
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%; 
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-dark{
+    color: black;
+    border:3px solid black;
+}
+
+.text-footer{
+   
+    text-align: center;
+    font-family:sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    color: blanchedalmond;
+    font-size: 17px;
+}
+
+.burger{
+    display: none;/*will show by mediaquery*/
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+
